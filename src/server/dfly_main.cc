@@ -196,6 +196,7 @@ void sigill_hdlr(int signo) {
 }
 
 int main(int argc, char* argv[]) {
+  // absl 是啥？ 
   absl::SetProgramUsageMessage(
       R"(a modern in-memory store.
 
